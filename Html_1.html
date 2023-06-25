@@ -1,0 +1,300 @@
+﻿ <!DOCTYPE html>
+<html>
+<head>
+    <title>DARKINO</title>
+    <link href="css1.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
+    <link rel="shortcut icon" href="clapperboard.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+          rel="stylesheet" />
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+          rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="Script1.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+
+    <style>
+        table, th, td {
+            border: 1px solid white;
+            background-color: black;
+            opacity: .8;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+        }
+
+        /* For mobile phones: */
+        [class*="col-"] {
+            width: 100%;
+        }
+
+        @media only screen and (min-width: 600px) {
+            /* For tablets: */
+            .col-s-1 {
+                width: 8.33%;
+            }
+
+            .col-s-2 {
+                width: 16.66%;
+            }
+
+            .col-s-3 {
+                width: 25%;
+            }
+
+            .col-s-4 {
+                width: 33.33%;
+            }
+
+            .col-s-5 {
+                width: 41.66%;
+            }
+
+            .col-s-6 {
+                width: 50%;
+            }
+
+            .col-s-7 {
+                width: 58.33%;
+            }
+
+            .col-s-8 {
+                width: 66.66%;
+            }
+
+            .col-s-9 {
+                width: 75%;
+            }
+
+            .col-s-10 {
+                width: 83.33%;
+            }
+
+            .col-s-11 {
+                width: 91.66%;
+            }
+
+            .col-s-12 {
+                width: 100%;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            /* For desktop: */
+            .col-1 {
+                width: 8.33%;
+            }
+
+            .col-2 {
+                width: 16.66%;
+            }
+
+            .col-3 {
+                width: 25%;
+            }
+
+            .col-4 {
+                width: 33.33%;
+            }
+
+            .col-5 {
+                width: 41.66%;
+            }
+
+            .col-6 {
+                width: 50%;
+            }
+
+            .col-7 {
+                width: 58.33%;
+            }
+
+            .col-8 {
+                width: 66.66%;
+            }
+
+            .col-9 {
+                width: 75%;
+            }
+
+            .col-10 {
+                width: 83.33%;
+            }
+
+            .col-11 {
+                width: 91.66%;
+            }
+
+            .col-12 {
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+
+<body style="color:azure">
+    <header id="header" class="fixed-top">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            
+            <div class="container-fluid">
+                <a style="color:azure" class="navbar-brand" href="#">TICKETON</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a style="color:azure" class="btn btn-outline-danger" aria-current="page" href="C:\Users\maxznachit\Desktop\SITE\Html_1.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color:azure" class="btn btn-outline-danger" href="C:\Users\maxznachit\Desktop\SITE\pg_NEW.html">NEW</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a style="color:azure" class="btn btn-outline-danger" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                MORE
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="C:\Users\maxznachit\Desktop\SITE\Animemain.html">ANIME</a></li>
+
+                                <!-- <li><a class="dropdown-item" href="C:\Users\maxznachit\Desktop\SITE\Serials1.html">SERIALS</a></li> -->
+
+
+                                <li><a class="dropdown-item" href="C:\Users\maxznachit\Desktop\SITE\buy_tick.html">BUY TICKETS</a></li>
+
+                               
+
+                        
+                                <li><a class="dropdown-item" href="C:\Users\maxznachit\Desktop\SITE\ernat\index.html">HORRORS</a></li>
+                                <li><a class="dropdown-item" href="C:\Users\maxznachit\Desktop\SITE\animation.html">EPIC</a></li>
+
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" id="searchText1"  placeholder="Search" aria-label="Search">
+                        <button style="color:azure" class="btn btn-outline-success" id="searchButton1" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="home-text container" id="home">
+            <div class="home-text">
+                <p style="color: black">dfsdf</p>
+                <p>_</p>
+
+
+                <h1 class="shadow-text">John Wick: Chapter 4</h1>
+                <hr>
+                <p>Released: 2023-03-22</p>
+                <img style="border-radius: 3%;" src="jw4.jpg"
+                     width="400"
+                     height="500" class="img-fluid" />
+                <p>
+                    <button formtarget="_blank"
+                            type="button" class="btn btn-danger" onclick="window.location.href='https://www.youtube.com/watch?v=yjRHZEUamCc';">
+                        TRAILER
+                    </button>
+                </p>
+                <button type="button" class="btn btn-danger" onclick="window.location.href='https://ev01.to/movie/watch-john-wick-chapter-4-online-90163';">WATCH</button>
+            </div>
+        </section>
+
+        <hr>
+
+        <center>SCHEDULE</center>
+
+        <table style="color:azure" class="table">
+            <thead class="shadow-text">
+                <tr>
+                    <th scope="col">DATE</th>
+                    <th scope="col">MOVIE-NAME</th>
+                    <th scope="col">PRICE</th>
+                    <th scope="col">TIME</th>
+                </tr>
+            </thead>
+            <tbody >
+                <tr>
+                    <th scope="row">25.09.2035</th>
+                    <td>Iron-Man 6</td>
+                    <td>35000</td>
+                    <td>18:50</td>
+                </tr>
+                <tr>
+                    <th scope="row">36.03.2025</th>
+                    <td>Avengers: The End</td>
+                    <td>43000</td>
+                    <td>14:50</td>
+                </tr>
+                <tr>
+                    <th scope="row">43.11.2035</th>
+                    <td colspan="2">Miles-Morales: homecoming</td>
+                    <td>SOON</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- <div class="swiper-slide">
+            <div class="movie-box">
+                <img src="spidernoway.jpg" class="movie-box-img">
+                <div class="box-text">
+                    <h4 class="movie-title">Spider-Man: No Way Home</h4>
+                    <span class="movie-type">Action</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="movie-box">
+                <img src="theflash.jpg" class="movie-box-img">
+                <div class="box-text">
+                    <h4 class="movie-title">The Flash</h4>
+                    <span class="movie-type">Action/Sci-Fi</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+        </div> -->
+
+
+
+        <div class="about">
+            <h3 style="color:azure" class="shadow-text">About Us</h3>
+            <p style="color:azure" class="shadow-text">Ticketon is the best place to get your tickets to all the events you love. Our mission is to make ticket purchasing easy, convenient and affordable for everyone.</p>
+            <p><center><img src="http://web.mindcraft.pro/images/bob.gif" width="200" alt="Боб"></center></p>
+
+        </div>
+    </main>
+
+    <footer>
+        <script src="https://kit.fontawesome.com/894e45a17a.js" crossorigin="anonymous"></script>
+        <a>Copyright <a>&copy</a> Soft Ticketon</a>
+        <center><button class="fab fa-telegram" onclick="window.location.href='https://t.me/maxznachit'"></button></center>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+    </html>
